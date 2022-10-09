@@ -1,0 +1,142 @@
+* {
+    border-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: hsl(217, 54%, 11%);
+    
+}
+
+.card {
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 25px;
+    /* justify-self: center; */
+    align-items: center;
+    justify-content: center;
+    margin: 25%;
+}
+
+.section_one_image, .section_three {
+    max-width:100%;
+    max-height:100%;
+    padding: 2rem ;
+    object-fit: cover;
+}
+
+.section_one_image img {
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+    display: block;
+}
+
+h2 {
+    font-family: 'Fraunces', serif;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: hsl(0, 0%, 100%);
+}
+
+h3 {
+    font-family: 'Fraunces', serif;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: hsl(178, 100%, 50%);
+}
+
+.section_two {
+    padding: 0rem 2rem 0rem 2rem; 
+}
+
+.section_two p {
+    font-family: 'Fraunces', serif;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: hsl(215, 51%, 70%);
+    font-size: 18px;
+    padding-top:  2rem;
+}
+
+.line {
+    color:hsl(215, 32%, 27%);
+}
+
+.logo_one_bottom, .logo_two_bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo_one_bottom img,.logo_two_bottom img  {
+    margin-right: .5rem;
+}
+
+.section_logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: hsl(215, 51%, 70%);
+    font-size: 18px;
+    padding: 2rem 2rem 0rem 2rem; 
+}
+
+.section_three {
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+    color: hsl(215, 51%, 70%);
+    font-size: 18px;
+    
+}
+
+.section_three img {
+    width: 3rem;
+    background-color: aliceblue;
+    border-radius: 50%;
+    padding: .1rem;
+    display: block;
+}
+span {
+    color: hsl(0, 0%, 100%);
+}
+
+.section_three p {
+    font-family: 'Fraunces', serif;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: hsl(215, 51%, 70%);
+    font-size: 18px;
+    padding-left: 1rem;
+}
+
+
+/* 
+- Mobile: 375px
+- Desktop: 1440px
+
+## Colors
+
+### Primary
+
+- Soft blue: hsl(215, 51%, 70%)
+- Cyan: hsl(178, 100%, 50%)
+
+### Neutral
+
+- Very dark blue (main BG): hsl(217, 54%, 11%)
+- Very dark blue (card BG): hsl(216, 50%, 16%)
+- Very dark blue (line): hsl(215, 32%, 27%)
+- White: hsl(0, 0%, 100%)
+
+## Typography
+
+### Body Copy
+
+- Font size (paragraph): 18px
+
+### Font
+
+- Family: [Outfit](https://fonts.google.com/specimen/Outfit)
+- Weights: 300, 400, 600 */
